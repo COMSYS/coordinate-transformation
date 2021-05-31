@@ -1,6 +1,6 @@
 # Investigating the Applicability of In-Network Computing to Industrial Scenarios
 
-Code will be available soon.
+This repository contains our implementations of the coordinate transformation for different platforms.
 
 ## Publication
 
@@ -19,3 +19,20 @@ If you use any portion of our work, please consider citing our publication.
    doi = {XX.XXXX/XXX}
 }
 ```
+
+## Content
+
+Folder | Purpose
+--- | --- 
+``measurement_code`` | Accompanying measurement code
+``transform_spherical_netronome`` | P4 source code for the Netronome SmartNICs 
+``transform_spherical_tofino`` | P4 source code for the Intel Tofino
+``transform_spherical_userspace`` | Reference userspace implementation 
+
+
+## License
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
